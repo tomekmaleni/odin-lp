@@ -71,7 +71,7 @@ section.hero {
             button {
                 border:none;
                 border-radius:5px;
-                padding:10px 30px;
+                padding: 10px 30px;
                 background-color: #3882f6;
                 color: #f9faf8;
                 font-weight: 600;
@@ -93,7 +93,6 @@ section.hero {
 }
 
 section.information {
-    background-color: #fff;
     .container {
         max-width:60%;
         padding-bottom:100px;
@@ -124,7 +123,7 @@ section.information {
     }
 }
 
-.quote {
+section.quote {
     background-color: #e5e7eb;
     .container {
         max-width:60%;
@@ -138,6 +137,39 @@ section.information {
             font-size:20px;
             width: fit-content;
             margin-left:auto;
+        }
+    }
+}
+
+section.cta {
+    .container {
+        border-radius: 7px;
+        background-color: #3882f6;
+        color: #f9faf8;
+        display: flex;
+        justify-content: space-around;
+        margin: 100px auto;
+        padding: 50px 0;
+        h3 {
+            margin: 0;
+        }
+        p {
+            color:#e5e7ebdd;
+            margin: 0;
+        }
+        button {
+            border: 2px solid #f9faf8;
+            border-radius:10px;
+            padding: 0 30px;
+            background-color: #3882f6;
+            color: #f9faf8;
+            font-weight: 600;
+            transition: background-color 0.2s;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 0px -3px 23px 1px #e5e7eb;
+            }
         }
     }
 }
