@@ -4,17 +4,20 @@
 }
 
 body {
-  background-color: #1f2937;
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
-section, nav {
+.container {
   max-width: 70%;
   margin: 0 auto;
 }
 
 nav {
+  background-color: #1f2937;
+}
+
+nav .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,35 +27,40 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 100px;
 }
 
-nav .logo {
+nav .container .logo {
   font-size: 24px;
   color: #f9faf8;
 }
 
-nav a {
+nav .container a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7ebaa;
 }
 
-nav a:hover {
+nav .container a:hover {
   color: #e5e7eb;
 }
 
-nav ul {
+nav .container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
 
-nav ul li {
+nav .container ul li {
   padding: 0 10px;
 }
 
 section.hero {
+  background-color: #1f2937;
+}
+
+section.hero .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,24 +70,24 @@ section.hero {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 100px auto;
+  padding-bottom: 100px;
 }
 
-section.hero .hero-content h1 {
+section.hero .container .hero-content h1 {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
   margin: 0;
 }
 
-section.hero .hero-content p {
+section.hero .container .hero-content p {
   font-size: 18px;
   color: #e5e7ebcc;
   max-width: 90%;
   margin: 0 0 10px;
 }
 
-section.hero .hero-content button {
+section.hero .container .hero-content button {
   border: none;
   border-radius: 5px;
   padding: 10px 30px;
@@ -91,15 +99,52 @@ section.hero .hero-content button {
   cursor: pointer;
 }
 
-section.hero .hero-content button:hover {
+section.hero .container .hero-content button:hover {
   background-color: #3882f6dd;
 }
 
-section.hero img {
+section.hero .container img {
   margin: 0 auto;
   width: 600px;
-  height: 200px;
+  height: 220px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+section.information {
+  background-color: #fff;
+}
+
+section.information .container {
+  padding-bottom: 100px;
+}
+
+section.information .container h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+section.information .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.information .container .cards .card .image-border {
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+section.information .container .cards .card p {
+  width: 150px;
+  text-align: center;
+  color: #555;
 }
 /*# sourceMappingURL=style.css.map */
