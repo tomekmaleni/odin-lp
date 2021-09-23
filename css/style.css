@@ -240,4 +240,70 @@ footer .container {
     padding-top: 100px;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  nav .container {
+    padding-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  nav .container ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+  nav .container ul li {
+    padding: 5px 0;
+  }
+  section.hero .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.hero .container img {
+    margin-top: 50px;
+    width: 60vw;
+    height: 40vw;
+  }
+  section.information .container .cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.information .container .cards .card {
+    padding: 26px;
+  }
+  section.cta .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 25px 50px;
+  }
+  section.cta .container button {
+    margin-top: 20px;
+    padding: 3px 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section.information .container .cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */

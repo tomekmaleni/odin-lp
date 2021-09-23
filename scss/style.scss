@@ -203,3 +203,53 @@ footer {
         padding-top:100px;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    nav .container {
+        padding-bottom:20px;
+        flex-direction: column;
+        align-items: flex-start;
+        ul {
+            flex-direction: column;
+            padding:0;
+            li {
+                padding:5px 0;
+            }
+        }
+    }
+
+
+    section.hero .container {
+        flex-direction: column;
+        
+        img {
+            margin-top:50px;
+            width:60vw;
+            height:40vw;
+        }
+    }
+
+    section.information .container .cards {
+        flex-wrap: wrap;
+        .card {
+            padding:26px;
+        }
+    }
+    section.cta .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 50px;
+
+        button {
+            margin-top:20px;
+            padding: 3px 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.information .container .cards {
+        justify-content: center;
+    }
+}
