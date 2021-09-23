@@ -20,7 +20,6 @@ nav {
         display:flex;
         align-items:center;
         justify-content:space-between;
-        padding-bottom:100px;
         
         .logo {
             font-size:24px;
@@ -50,6 +49,7 @@ nav {
 section.hero {
     background-color: #1f2937;
     .container {
+        padding-top:100px;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -206,7 +206,6 @@ footer {
 
 @media only screen and (max-width: 1024px) {
     nav .container {
-        padding-bottom:20px;
         flex-direction: column;
         align-items: flex-start;
         ul {
@@ -218,8 +217,8 @@ footer {
         }
     }
 
-
     section.hero .container {
+        padding-top:50px;
         flex-direction: column;
         
         img {
