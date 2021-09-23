@@ -85,9 +85,9 @@ section.hero {
         }
         img {
             margin:0 auto;
-            width:600px;
+            width:500px;
             height:220px;
-            object-fit: cover;       
+            object-fit: cover; 
         }
     }
 }
@@ -181,5 +181,25 @@ footer {
         padding:25px;
         color: #e5e7ebdd;
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    nav .container {
+        padding-bottom:150px;
+    }
+    section.hero .container{ 
+        padding-bottom:150px;
+        img {
+        width:400px;
+        height:250px;
+        }
+        .hero-content p {
+            max-width:60%;
+            padding-bottom:20px;
+        }
+    }
+    section.information .container {
+        padding-top:100px;
     }
 }
