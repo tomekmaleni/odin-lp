@@ -95,6 +95,7 @@ section.hero {
 section.information {
     background-color: #fff;
     .container {
+        max-width:60%;
         padding-bottom:100px;
         h2 {
             font-size: 36px;
@@ -119,6 +120,24 @@ section.information {
                     color:#555;
                 }
             }
+        }
+    }
+}
+
+.quote {
+    background-color: #e5e7eb;
+    .container {
+        max-width:60%;
+        padding:100px 0;
+        p {
+            font-size:36px;
+            font-weight: 300;
+            margin:0;
+        }
+        .author {
+            font-size:20px;
+            width: fit-content;
+            margin-left:auto;
         }
     }
 }

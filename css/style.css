@@ -116,6 +116,7 @@ section.information {
 }
 
 section.information .container {
+  max-width: 60%;
   padding-bottom: 100px;
 }
 
@@ -146,5 +147,28 @@ section.information .container .cards .card p {
   width: 150px;
   text-align: center;
   color: #555;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .container {
+  max-width: 60%;
+  padding: 100px 0;
+}
+
+.quote .container p {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.quote .container .author {
+  font-size: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
 }
 /*# sourceMappingURL=style.css.map */
